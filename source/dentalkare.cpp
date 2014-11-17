@@ -7,7 +7,7 @@
 
 
 /**
-* \brief
+* \brief menu 2   
 *
 */
 void menu2(){
