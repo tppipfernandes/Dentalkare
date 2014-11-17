@@ -9,6 +9,7 @@ char lechar(){
 }
 
 void lerStringComEspacos(NOME &nome){
+	strupr(nome);
 	scanf("%[^\n]s",nome);
 }
 
