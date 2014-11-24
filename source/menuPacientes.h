@@ -4,6 +4,12 @@
 
 #define N 100
 
+/**
+* Estrutura que identifica as variáveis utilizadas nomeadamente: nome, morada, email, telemóvel, idade, nº total de dentes.
+*
+*
+*/ 
+
 typedef struct
 {
 	int id_Paciente;
@@ -18,7 +24,8 @@ typedef struct
 
 /**
 * \brief adicionar novo PACIENTE
-*
+* 
+* Função que adiciona um novo paciente requesitando o nome, a idade, a morada e o email.
 */
 void addPaciente()
 {
