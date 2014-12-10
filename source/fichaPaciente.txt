@@ -1,4 +1,0 @@
-José Oliveira, 54, Rua das Garças, joseoliveira@email.com;
-Nuno Correia, 20, Rua dos Politicos, nunoCorreia@email.com;
-Maria Felizarda, 31, Rua Socrates, mariaf@email.com
-
