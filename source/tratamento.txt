@@ -1,0 +1,25 @@
+1
+Branqueamento Dentario
+250
+1
+
+2
+Implante Dentario
+750
+1
+
+3
+Aparelho Dentario
+300
+1
+
+4
+Protese 1 Dente
+70
+1
+
+5
+Extracao 1 Dente
+50
+1
+

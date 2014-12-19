@@ -1,0 +1,70 @@
+1
+Susana
+Estevao
+Rua Gaivotas E-4
+a48584@ualg.pt
+916929105
+22-9-1994
+20
+1
+
+2
+Hugo
+Santos
+Rua Dorilia Carmona L12 R/C t
+hugo_santos@hotmail.com
+913508356
+8-2-1992
+22
+1
+
+3
+Diogo 
+Martins
+Rua do Benfica L13 
+diogoMartins@gmail.com
+91234567
+29-7-2006
+8
+1
+
+4
+Patricia 
+Bentes
+Rua Garcas A-43
+patriciaBentes@gmail.com
+919030971
+6-3-1972
+42
+1
+
+5
+Ze
+Dias
+Rua Paraiso L5 4Esq
+zedias@gmail.com
+916929105
+3-6-1994
+20
+1
+
+6
+Ze
+Manel
+Rua Cegonhas C-4
+zemanuel@hotmail.com
+913508356
+11-11-1994
+20
+1
+
+6
+Hugo
+Dias
+Rua Tulipas L1
+diasHugo@gmail.com
+919997355
+12-12-1992
+22
+1
+
