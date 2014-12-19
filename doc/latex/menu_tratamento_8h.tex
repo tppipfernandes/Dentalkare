@@ -1,0 +1,176 @@
+\section{source/menu\+Tratamento.h File Reference}
+\label{menu_tratamento_8h}\index{source/menu\+Tratamento.\+h@{source/menu\+Tratamento.\+h}}
+
+
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Tratamento.\+h\char`\"{}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$conio.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf tratamento}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries N}~50\label{menu_tratamento_8h_a0240ac851181b84ac374872dc5434ee4}
+
+\item 
+\#define {\bfseries tratamento\+Name}~\char`\"{}tratamento.\+txt\char`\"{}\label{menu_tratamento_8h_a2dcb977be407cc7aeb05e72ae6728504}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef {\bf tratamento} {\bf lista\+Tratamento} [N]
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf ler\+Tratamento} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}tratamento.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf gravar\+Tratamento} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao que gravar a estrutura de dados no ficheiro \char`\"{}tratamento.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf listar\+Tratamento} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para mostrar todos os T\+R\+A\+T\+A\+M\+E\+N\+T\+O\+S gravados em \char`\"{}tratamento.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf inserir\+Tratamento} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para adicionar um novo T\+R\+A\+T\+A\+M\+E\+N\+T\+O. \end{DoxyCompactList}\item 
+int {\bf alterar\+Tratamento} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para alterar um determinado T\+R\+A\+T\+A\+M\+E\+N\+T\+O. \end{DoxyCompactList}\item 
+void {\bf eliminar\+Tratamento} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para eliminar um determinado T\+R\+A\+T\+A\+M\+E\+N\+T\+O. \end{DoxyCompactList}\item 
+void {\bf menu\+Tratamento} (void)
+\begin{DoxyCompactList}\small\item\em Funcao para mostrar menu T\+R\+A\+T\+A\+M\+E\+N\+T\+O. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Tratamento.\+h\char`\"{}. 
+
+\char`\"{}menu\+Tratamento.\+h\char`\"{} implementa o menu dos T\+R\+A\+T\+A\+M\+E\+N\+T\+O\+S \begin{DoxyDate}{Date}
+9 dez 2014 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!lista\+Tratamento@{lista\+Tratamento}}
+\index{lista\+Tratamento@{lista\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{lista\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf tratamento} lista\+Tratamento[N]}\label{menu_tratamento_8h_abafd008733ebf4f746df9a5a19b42333}
+Define um tipo como sendo uma lista\+Tratamento 
+
+\subsection{Function Documentation}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!alterar\+Tratamento@{alterar\+Tratamento}}
+\index{alterar\+Tratamento@{alterar\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{alterar\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}int alterar\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_ad8673dd7ce25027e350009ba1c216264}
+
+
+Funcao para alterar um determinado T\+R\+A\+T\+A\+M\+E\+N\+T\+O. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!eliminar\+Tratamento@{eliminar\+Tratamento}}
+\index{eliminar\+Tratamento@{eliminar\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{eliminar\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}void eliminar\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_aa34c6d395a1d68ded84bcdb2f1e16897}
+
+
+Funcao para eliminar um determinado T\+R\+A\+T\+A\+M\+E\+N\+T\+O. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!gravar\+Tratamento@{gravar\+Tratamento}}
+\index{gravar\+Tratamento@{gravar\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{gravar\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}void gravar\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_a3548ecd1c04695671c82031b1e99567b}
+
+
+Funcao que gravar a estrutura de dados no ficheiro \char`\"{}tratamento.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!inserir\+Tratamento@{inserir\+Tratamento}}
+\index{inserir\+Tratamento@{inserir\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{inserir\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}void inserir\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_af8daab048931795dc62a3463168354fc}
+
+
+Funcao para adicionar um novo T\+R\+A\+T\+A\+M\+E\+N\+T\+O. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!ler\+Tratamento@{ler\+Tratamento}}
+\index{ler\+Tratamento@{ler\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{ler\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}void ler\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_a0244ce2f6dd9961e1ad85adc9061b392}
+
+
+Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}tratamento.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!listar\+Tratamento@{listar\+Tratamento}}
+\index{listar\+Tratamento@{listar\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{listar\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}void listar\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_a94234a08329d715562ce50ed00cdc9c1}
+
+
+Funcao para mostrar todos os T\+R\+A\+T\+A\+M\+E\+N\+T\+O\+S gravados em \char`\"{}tratamento.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\index{menu\+Tratamento.\+h@{menu\+Tratamento.\+h}!menu\+Tratamento@{menu\+Tratamento}}
+\index{menu\+Tratamento@{menu\+Tratamento}!menu\+Tratamento.\+h@{menu\+Tratamento.\+h}}
+\subsubsection[{menu\+Tratamento}]{\setlength{\rightskip}{0pt plus 5cm}void menu\+Tratamento (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{menu_tratamento_8h_acd46807b7a728bb71f650f25428ead4a}
+
+
+Funcao para mostrar menu T\+R\+A\+T\+A\+M\+E\+N\+T\+O. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,178 @@
+\section{source/menu\+Paciente.h File Reference}
+\label{menu_paciente_8h}\index{source/menu\+Paciente.\+h@{source/menu\+Paciente.\+h}}
+
+
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Paciente.\+h\char`\"{}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$conio.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf d\+N}
+\item 
+struct {\bf paciente}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries N}~50\label{menu_paciente_8h_a0240ac851181b84ac374872dc5434ee4}
+
+\item 
+\#define {\bfseries paciente\+Name}~\char`\"{}paciente.\+txt\char`\"{}\label{menu_paciente_8h_a95c77d42148886e0c4dc768c772f092b}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef {\bf paciente} {\bf lista\+Paciente} [N]
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf ler\+Paciente} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}paciente.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf gravar\+Paciente} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}paciente.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+int {\bf listar\+Paciente} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para listar todos os P\+A\+C\+I\+E\+N\+T\+E\+S gravados em \char`\"{}paciente.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf inserir\+Paciente} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para adicionar um novo P\+A\+C\+I\+E\+N\+T\+E. \end{DoxyCompactList}\item 
+int {\bf alterar\+Paciente} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao que alterar um registo dos P\+A\+C\+I\+E\+N\+T\+E\+S na estrutura de dados. \end{DoxyCompactList}\item 
+int {\bf eliminar\+Paciente} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para eliminar um registo P\+A\+C\+I\+E\+N\+T\+E na estrutura de dados. \end{DoxyCompactList}\item 
+void {\bf menu\+Paciente} (void)
+\begin{DoxyCompactList}\small\item\em Funcao menu P\+A\+C\+I\+E\+N\+T\+E. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Paciente.\+h\char`\"{}. 
+
+\char`\"{}menu\+Paciente.\+h\char`\"{} implementa o menu dos P\+A\+C\+I\+E\+N\+T\+E\+S \begin{DoxyDate}{Date}
+9 dez 2014 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!lista\+Paciente@{lista\+Paciente}}
+\index{lista\+Paciente@{lista\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{lista\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf paciente} lista\+Paciente[N]}\label{menu_paciente_8h_af3d2667f748e10947bfb8d361375a5c5}
+Define um tipo como sendo uma lista\+Paciente 
+
+\subsection{Function Documentation}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!alterar\+Paciente@{alterar\+Paciente}}
+\index{alterar\+Paciente@{alterar\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{alterar\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}int alterar\+Paciente (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_aa6cfcbad9187e93e8b85f18ea325a56e}
+
+
+Funcao que alterar um registo dos P\+A\+C\+I\+E\+N\+T\+E\+S na estrutura de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!eliminar\+Paciente@{eliminar\+Paciente}}
+\index{eliminar\+Paciente@{eliminar\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{eliminar\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}int eliminar\+Paciente (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_a1000fa5706792d09e8e85041faef16d8}
+
+
+Funcao para eliminar um registo P\+A\+C\+I\+E\+N\+T\+E na estrutura de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!gravar\+Paciente@{gravar\+Paciente}}
+\index{gravar\+Paciente@{gravar\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{gravar\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}void gravar\+Paciente (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_a98602470db539ee9cc92e1a31928281a}
+
+
+Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}paciente.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!inserir\+Paciente@{inserir\+Paciente}}
+\index{inserir\+Paciente@{inserir\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{inserir\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}void inserir\+Paciente (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_a1c9663d9bd9d6d52efe41b94bd22c706}
+
+
+Funcao para adicionar um novo P\+A\+C\+I\+E\+N\+T\+E. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!ler\+Paciente@{ler\+Paciente}}
+\index{ler\+Paciente@{ler\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{ler\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}void ler\+Paciente (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_ac4a154fdad3d41417bf92e4ad644a32e}
+
+
+Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}paciente.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!listar\+Paciente@{listar\+Paciente}}
+\index{listar\+Paciente@{listar\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{listar\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}int listar\+Paciente (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_a71d0c42533324b9cf4b392e3710b2e78}
+
+
+Funcao para listar todos os P\+A\+C\+I\+E\+N\+T\+E\+S gravados em \char`\"{}paciente.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Paciente.\+h@{menu\+Paciente.\+h}!menu\+Paciente@{menu\+Paciente}}
+\index{menu\+Paciente@{menu\+Paciente}!menu\+Paciente.\+h@{menu\+Paciente.\+h}}
+\subsubsection[{menu\+Paciente}]{\setlength{\rightskip}{0pt plus 5cm}void menu\+Paciente (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{menu_paciente_8h_aa76d6aed3ab06f0e508f37586f0c88f2}
+
+
+Funcao menu P\+A\+C\+I\+E\+N\+T\+E. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,188 @@
+\section{source/menu\+Consulta.h File Reference}
+\label{menu_consulta_8h}\index{source/menu\+Consulta.\+h@{source/menu\+Consulta.\+h}}
+
+
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Consulta.\+h\char`\"{}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$conio.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf d}
+\item 
+struct {\bf hora}
+\item 
+struct {\bf consulta}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries N}~50\label{menu_consulta_8h_a0240ac851181b84ac374872dc5434ee4}
+
+\item 
+\#define {\bfseries consulta\+Name}~\char`\"{}consulta.\+txt\char`\"{}\label{menu_consulta_8h_a33857323888f5040edefcf6af45b9844}
+
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef {\bf consulta} {\bf lista\+Consulta} [N]
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf ler\+Consulta} ({\bf lista\+Consulta} c)
+\begin{DoxyCompactList}\small\item\em Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}consulta.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf gravar\+Consulta} ({\bf lista\+Consulta} c)
+\begin{DoxyCompactList}\small\item\em Funcao que gravar a estrutura de dados no ficheiro \char`\"{}consulta.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf listar\+Consulta} ({\bf lista\+Consulta} c, {\bf lista\+Paciente} p, {\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao que mostra todas as C\+O\+N\+S\+U\+L\+T\+A\+S gravadas em \char`\"{}consulta.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf inserir\+Consulta} ({\bf lista\+Consulta} c, {\bf lista\+Paciente} p, {\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em adicionar uma nova C\+O\+N\+S\+U\+L\+T\+A \end{DoxyCompactList}\item 
+int {\bf alterar\+Consulta} ({\bf lista\+Consulta} c, {\bf lista\+Paciente} p, {\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para alterar uma determinada C\+O\+N\+S\+U\+L\+T\+A. \end{DoxyCompactList}\item 
+void {\bf eliminar\+Consulta} ({\bf lista\+Consulta} c, {\bf lista\+Paciente} p, {\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para eliminar uma determinada C\+O\+N\+S\+U\+L\+T\+A. \end{DoxyCompactList}\item 
+void {\bf menu\+Consulta} (void)
+\begin{DoxyCompactList}\small\item\em Funcao para mostrar o menu da C\+O\+N\+S\+U\+L\+T\+A. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Consulta.\+h\char`\"{}. 
+
+\char`\"{}menu\+Consulta.\+h\char`\"{} implementa o menu das C\+O\+N\+S\+U\+L\+T\+A\+S \begin{DoxyDate}{Date}
+9 dez 2014 
+\end{DoxyDate}
+
+
+\subsection{Typedef Documentation}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!lista\+Consulta@{lista\+Consulta}}
+\index{lista\+Consulta@{lista\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{lista\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf consulta} lista\+Consulta[N]}\label{menu_consulta_8h_a50563fc683a946c31c621603bf006985}
+Define um tipo como sendo uma lista\+Consulta 
+
+\subsection{Function Documentation}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!alterar\+Consulta@{alterar\+Consulta}}
+\index{alterar\+Consulta@{alterar\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{alterar\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}int alterar\+Consulta (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c, }
+\item[{{\bf lista\+Paciente}}]{p, }
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_a931470a37165d45dc2604e05e275b939}
+
+
+Funcao para alterar uma determinada C\+O\+N\+S\+U\+L\+T\+A. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \+: lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!eliminar\+Consulta@{eliminar\+Consulta}}
+\index{eliminar\+Consulta@{eliminar\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{eliminar\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}void eliminar\+Consulta (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c, }
+\item[{{\bf lista\+Paciente}}]{p, }
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_abfeb4cf422a1aa95ee32169711d7a000}
+
+
+Funcao para eliminar uma determinada C\+O\+N\+S\+U\+L\+T\+A. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!gravar\+Consulta@{gravar\+Consulta}}
+\index{gravar\+Consulta@{gravar\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{gravar\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}void gravar\+Consulta (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_a66ff5c4f854b419a2e0060864dddd27f}
+
+
+Funcao que gravar a estrutura de dados no ficheiro \char`\"{}consulta.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \+: lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!inserir\+Consulta@{inserir\+Consulta}}
+\index{inserir\+Consulta@{inserir\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{inserir\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}void inserir\+Consulta (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c, }
+\item[{{\bf lista\+Paciente}}]{p, }
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_a3b8d132490436c0ac9acd21319105f2d}
+
+
+adicionar uma nova C\+O\+N\+S\+U\+L\+T\+A 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \+: lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!ler\+Consulta@{ler\+Consulta}}
+\index{ler\+Consulta@{ler\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{ler\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}void ler\+Consulta (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_ab544daef652bfbfb141bddcc5c05f746}
+
+
+Funcao que carrega a estrutura de dados a partir do ficheiro \char`\"{}consulta.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \+: lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!listar\+Consulta@{listar\+Consulta}}
+\index{listar\+Consulta@{listar\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{listar\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}void listar\+Consulta (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c, }
+\item[{{\bf lista\+Paciente}}]{p, }
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_a630e6f179c9f7eb8ae2b878b3753f4a3}
+
+
+Funcao que mostra todas as C\+O\+N\+S\+U\+L\+T\+A\+S gravadas em \char`\"{}consulta.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \+: lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Consulta.\+h@{menu\+Consulta.\+h}!menu\+Consulta@{menu\+Consulta}}
+\index{menu\+Consulta@{menu\+Consulta}!menu\+Consulta.\+h@{menu\+Consulta.\+h}}
+\subsubsection[{menu\+Consulta}]{\setlength{\rightskip}{0pt plus 5cm}void menu\+Consulta (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{menu_consulta_8h_af1931518ddac35ed43bafc25ee507297}
+
+
+Funcao para mostrar o menu da C\+O\+N\+S\+U\+L\+T\+A. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}

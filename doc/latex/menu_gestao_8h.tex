@@ -1,0 +1,177 @@
+\section{source/menu\+Gestao.h File Reference}
+\label{menu_gestao_8h}\index{source/menu\+Gestao.\+h@{source/menu\+Gestao.\+h}}
+
+
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Gestao.\+h\char`\"{}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$conio.\+h$>$}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries N}~50\label{menu_gestao_8h_a0240ac851181b84ac374872dc5434ee4}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf pesquisa\+Idade} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para pesquisar por idades dos P\+A\+C\+I\+E\+N\+T\+E\+S. \end{DoxyCompactList}\item 
+int {\bf pesquisa\+Telemovel} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para pesquisar pelo telemovel dos P\+A\+C\+I\+E\+N\+T\+E\+S. \end{DoxyCompactList}\item 
+int {\bf pesquisa\+Nome} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para pesquisar por nome dos P\+A\+C\+I\+E\+N\+T\+E\+S. \end{DoxyCompactList}\item 
+int {\bf media\+Idades} ({\bf lista\+Paciente} p)
+\begin{DoxyCompactList}\small\item\em Funcao para calcular a media de idades dos P\+A\+C\+I\+E\+N\+T\+E\+S. \end{DoxyCompactList}\item 
+int {\bf pesquisa\+Tipo} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para pesquisar pelo tipo de T\+R\+A\+T\+A\+M\+E\+N\+T\+O. \end{DoxyCompactList}\item 
+void {\bf media\+Precos} ({\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao para calcular a media de precos dos T\+R\+A\+T\+A\+M\+E\+N\+T\+O\+S. \end{DoxyCompactList}\item 
+void {\bf pesquisa\+Data} ({\bf lista\+Consulta} c, {\bf lista\+Paciente} p, {\bf lista\+Tratamento} t)
+\begin{DoxyCompactList}\small\item\em Funcao que gravar a estrutura de dados no ficheiro \char`\"{}tratamentos.\+txt\char`\"{}. \end{DoxyCompactList}\item 
+void {\bf menu\+Gestao} (void)
+\begin{DoxyCompactList}\small\item\em Funcao para mostrar menu de G\+E\+S\+T\+A\+O. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Projeto Modulo Tematico L\+T\+I\+C 2014/2015 \char`\"{}menu\+Gestao.\+h\char`\"{}. 
+
+\char`\"{}menu\+Gestao.\+h\char`\"{} implementa o menu Gestao \begin{DoxyDate}{Date}
+9 dez 2014 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!media\+Idades@{media\+Idades}}
+\index{media\+Idades@{media\+Idades}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{media\+Idades}]{\setlength{\rightskip}{0pt plus 5cm}int media\+Idades (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_ab350e5f63f8e8be8980ed96c7c8856b4}
+
+
+Funcao para calcular a media de idades dos P\+A\+C\+I\+E\+N\+T\+E\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!media\+Precos@{media\+Precos}}
+\index{media\+Precos@{media\+Precos}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{media\+Precos}]{\setlength{\rightskip}{0pt plus 5cm}void media\+Precos (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_a37d089f3623ae2c32b8c4ee2beafe2d3}
+
+
+Funcao para calcular a media de precos dos T\+R\+A\+T\+A\+M\+E\+N\+T\+O\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!menu\+Gestao@{menu\+Gestao}}
+\index{menu\+Gestao@{menu\+Gestao}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{menu\+Gestao}]{\setlength{\rightskip}{0pt plus 5cm}void menu\+Gestao (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_a06ab269917a8f256f9b8ea573741f9f8}
+
+
+Funcao para mostrar menu de G\+E\+S\+T\+A\+O. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!pesquisa\+Data@{pesquisa\+Data}}
+\index{pesquisa\+Data@{pesquisa\+Data}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{pesquisa\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void pesquisa\+Data (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Consulta}}]{c, }
+\item[{{\bf lista\+Paciente}}]{p, }
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_a579d78adf9cb1e9daa4ef18e0bec406e}
+
+
+Funcao que gravar a estrutura de dados no ficheiro \char`\"{}tratamentos.\+txt\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \+: lista\+Consulta \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!pesquisa\+Idade@{pesquisa\+Idade}}
+\index{pesquisa\+Idade@{pesquisa\+Idade}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{pesquisa\+Idade}]{\setlength{\rightskip}{0pt plus 5cm}int pesquisa\+Idade (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_afce206ced9612bffafbce7e29bed8041}
+
+
+Funcao para pesquisar por idades dos P\+A\+C\+I\+E\+N\+T\+E\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!pesquisa\+Nome@{pesquisa\+Nome}}
+\index{pesquisa\+Nome@{pesquisa\+Nome}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{pesquisa\+Nome}]{\setlength{\rightskip}{0pt plus 5cm}int pesquisa\+Nome (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_a64f2057af6a3c15c49137698e9c0e7ea}
+
+
+Funcao para pesquisar por nome dos P\+A\+C\+I\+E\+N\+T\+E\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!pesquisa\+Telemovel@{pesquisa\+Telemovel}}
+\index{pesquisa\+Telemovel@{pesquisa\+Telemovel}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{pesquisa\+Telemovel}]{\setlength{\rightskip}{0pt plus 5cm}int pesquisa\+Telemovel (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Paciente}}]{p}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_a2fc935da74e13af997268a9799dcb113}
+
+
+Funcao para pesquisar pelo telemovel dos P\+A\+C\+I\+E\+N\+T\+E\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \+: lista\+Paciente \\
+\hline
+\end{DoxyParams}
+\index{menu\+Gestao.\+h@{menu\+Gestao.\+h}!pesquisa\+Tipo@{pesquisa\+Tipo}}
+\index{pesquisa\+Tipo@{pesquisa\+Tipo}!menu\+Gestao.\+h@{menu\+Gestao.\+h}}
+\subsubsection[{pesquisa\+Tipo}]{\setlength{\rightskip}{0pt plus 5cm}int pesquisa\+Tipo (
+\begin{DoxyParamCaption}
+\item[{{\bf lista\+Tratamento}}]{t}
+\end{DoxyParamCaption}
+)}\label{menu_gestao_8h_a1b353c1f767e8b37ba8a75dcd01428c5}
+
+
+Funcao para pesquisar pelo tipo de T\+R\+A\+T\+A\+M\+E\+N\+T\+O. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: lista\+Tratamento \\
+\hline
+\end{DoxyParams}
